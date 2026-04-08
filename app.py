@@ -39,6 +39,18 @@ df = load_data()
 if df is not None:
     # --- Sidebar Summary ---
     st.sidebar.header("Audit Summary")
+    logo_url = "https://virtuefoundation.org/wp-content/uploads/2018/10/virtue-foundation-logo-1.png"
+    
+    # Image load karne ki koshish, agar fail hui toh text dikhayega
+    st.sidebar.markdown(f"""
+        <div style='text-align: center;'>
+            <img src='{logo_url}' width='180' onerror='this.style.display="none"'>
+            <h2 style='color: #1E88E5; margin-top: 0;'>VIRTUE AUDIT</h2>
+        </div>
+    """, unsafe_allow_html=True)
+    
+    st.sidebar.divider()
+    st.sidebar.header("📊 Global Statistics")
     total_records = len(df)
     suspicious_count = int(df['is_suspicious'].sum())
     
