@@ -1,7 +1,5 @@
 <div align="center">
 
-<div align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=FF3621&height=180&section=header&text=VirtueAudit&fontSize=72&fontColor=fff&animation=fadeIn&fontAlignY=45" width="100%"/>
 
 # 🤖 VirtueAudit: AI-Automated Medical Infrastructure Verification & Risk Assessment
@@ -93,29 +91,29 @@ Both modes feed the same interactive **Streamlit dashboard**, deployed on Databr
 </div>
 
 ---
-
 ## 📂 Project Structure
+
+```text
 📦 VirtueAudit-AI
 │
-├── 🧠 Accenture_Databricks_Virtue_Agent.ipynb   # Core AI pipeline
-│                                                # ├─ LLaMA 3.1 extraction via Groq
-│                                                # ├─ Apache Spark (Databricks)
-│                                                # └─ Pandas fallback (local)
+├── 🧠 Accenture_Databricks_Virtue_Agent.ipynb
+│        ├── LLaMA 3.1 extraction via Groq
+│        ├── Apache Spark (Databricks)
+│        └── Pandas fallback (local)
 │
-├── 🖥️  app.py                                    # Streamlit dashboard
-│                                                # ├─ KPI metrics & Plotly charts
-│                                                # ├─ Searchable data explorer
-│                                                # └─ Per-facility case detail view
+├── 🖥️  app.py
+│        ├── KPI metrics & Plotly charts
+│        ├── Searchable data explorer
+│        └── Per-facility case detail view
 │
-├── 📥 Virtue Foundation Ghana v0.3 - Sheet1.csv  # INPUT  · Raw unstructured facility data
-├── 📤 Virtue_Final_Audit.csv                     # OUTPUT · Pandas → local root
-│                                                #         · Spark  → Databricks DBFS
-│
+├── 📥 Virtue Foundation Ghana v0.3 - Sheet1.csv   # INPUT  · Raw unstructured facility data
+├── 📤 Virtue_Final_Audit.csv                      # OUTPUT · Pandas → local root
+│                                                  #         · Spark  → Databricks DBFS
 ├── 📋 requirements.txt
 ├── ☁️  databricks_apps/
 ├── 🐳 .devcontainer/
 └── 📝 Drafts/
-
+```
 ---
 
 ## 📥 Dataset & Output Files
