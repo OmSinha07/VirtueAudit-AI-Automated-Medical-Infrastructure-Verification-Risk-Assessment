@@ -93,22 +93,14 @@ Both modes feed the same interactive **Streamlit dashboard**, deployed on Databr
 </div>
 
 ---
-
 ## 📂 Project Structure
 
 ```
 📦 VirtueAudit-AI/
-├── 📓 Accenture_Databricks_Virtue_Agent.ipynb  # Core AI pipeline
-│                                               #  ├─ LLaMA 3.1 extraction via Groq
-│                                               #  ├─ Apache Spark (Databricks)
-│                                               #  └─ Pandas fallback (local)
-├── 🖥️  app.py                                  # Streamlit dashboard
-│                                               #  ├─ KPI metrics & Plotly charts
-│                                               #  ├─ Searchable data explorer
-│                                               #  └─ Per-facility case detail view
-├── 📥 Virtue Foundation Ghana v0.3 - Sheet1.csv  # INPUT  · Raw facility data
-├── 📤 Virtue_Final_Audit.csv                   # OUTPUT · Pandas → local root
-│                                               #         · Spark  → Databricks DBFS
+├── 📓 Accenture_Databricks_Virtue_Agent.ipynb
+├── 🖥️  app.py
+├── 📥 Virtue Foundation Ghana v0.3 - Sheet1.csv
+├── 📤 Virtue_Final_Audit.csv
 ├── 📋 requirements.txt
 ├── ☁️  databricks_apps/
 │   └── app.yaml
@@ -116,6 +108,17 @@ Both modes feed the same interactive **Streamlit dashboard**, deployed on Databr
 │   └── devcontainer.json
 └── 📝 Drafts/
 ```
+
+| File | Description |
+|---|---|
+| `Accenture_Databricks_Virtue_Agent.ipynb` | Core AI pipeline — LLaMA 3.1 via Groq, Apache Spark + Pandas fallback |
+| `app.py` | Streamlit dashboard — KPI metrics, Plotly charts, per-facility case view |
+| `Virtue Foundation Ghana v0.3 - Sheet1.csv` | **INPUT** — Raw unstructured facility data |
+| `Virtue_Final_Audit.csv` | **OUTPUT** — Pandas → local root · Spark → Databricks DBFS |
+| `requirements.txt` | Python dependencies |
+| `databricks_apps/app.yaml` | Databricks Apps deployment config |
+| `.devcontainer/devcontainer.json` | One-click VS Code dev environment |
+| `Drafts/` | Work-in-progress and scratch files |
 ---
 
 ## 📥 Dataset & Output Files
