@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FF3621&height=200&section=header&text=VirtueAudit&fontSize=72&fontFamily=Syne&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI-Automated%20Medical%20Infrastructure%20Verification%20%26%20Risk%20Assessment&descAlignY=58&descSize=16" width="100%"/>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FF3621&height=180&section=header&text=VirtueAudit&fontSize=72&fontColor=fff&animation=fadeIn&fontAlignY=45" width="100%"/>
 
 # 🤖 VirtueAudit: AI-Automated Medical Infrastructure Verification & Risk Assessment
 
