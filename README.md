@@ -254,6 +254,16 @@ Use the `.devcontainer` setup in VS Code for a consistent dev environment.
 
 ---
 
+
+## 🎬 Demo
+
+> Click below to watch a full walkthrough of VirtueAudit in action.
+
+[![Watch Demo](https://img.shields.io/badge/Watch_Demo-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1sD5lLhTQqdq0nxCtAxWqDAszwxLr9MUd/view?usp=sharing)
+
+
+---
+
 ## 📄 License
 
 Distributed under the [MIT License](LICENSE).
